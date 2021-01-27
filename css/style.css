@@ -64,8 +64,8 @@ nav{
 }
 .navLink1:hover{
     color: #474a9e !important; 
+    background-color: transparent;
 }
-
 .jumbotron-footer{
    background: #060506 !important;
 	border-radius: 0px !important;
@@ -123,8 +123,6 @@ nav{
     padding: 17px;
     background-color: #474a9e;
 }
-
-
 .bigHeading{
     font-family: 'Roboto', sans-serif;
     color: #ffffff;
@@ -147,7 +145,7 @@ nav{
 }
 .greyBack{
     background-color: #f2f2f2;
-    padding: 60px 60px;
+    padding: 80px 60px;
 }
 .subHeading{
     font-family: 'Roboto', sans-serif;
@@ -202,7 +200,7 @@ nav{
     letter-spacing: 1px;  
     text-decoration: none;
     background-color: #474a9e;
-    padding: 13px 20px;
+    padding: 12px 23px;
 }
 .mainButton:hover{
     text-decoration: none; 
@@ -210,6 +208,47 @@ nav{
     border: 2px solid #474a9e;
     color: #000000;
 }
+.readMore{
+    font-family: 'Roboto', sans-serif;
+    color: #474a9e;
+    text-decoration: none;
+    font-size: 16px;
+}
+.marginTop{
+    margin-top: 13px;
+}
+.marginTop:hover{
+   color: #474a9e;
+   text-decoration: underline;
+}
+.secondHeadSmall1{
+    font-size: 14px;
+    margin-bottom: 0px;
+}
+.textEnd{
+    text-align: end;
+}
+.rightMargin{
+    margin-right: 70px;
+}
+.line{
+   margin-right: 20px !important; 
+}
+.bs-stepper .line, .bs-stepper-line{
+    flex: 1 0 145px !important;
+}
+.whiteBox{
+  background-color: #ffffff;
+  padding: 30px;
+}
+.smallHeadinB{
+  color: #000000;
+}
+.navigationBarDesktop{
+    background-color: #f2f2f2;
+}
+
+
 
 
 
