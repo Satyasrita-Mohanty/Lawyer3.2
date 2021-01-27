@@ -1,0 +1,317 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+::selection {
+  background:#c1928b;
+    color:#fff;/* WebKit/Blink Browsers */
+}
+::-moz-selection {
+   background:#c1928b;
+    color:#fff;/* Gecko Browsers */
+}
+*{
+    box-sizing: border-box;
+}
+::selection {
+  background:#c1928b;
+    color:#fff;/* WebKit/Blink Browsers */
+}
+::-moz-selection {
+   background:#c1928b;
+    color:#fff;/* Gecko Browsers */
+}
+.container{
+    max-width: 1240px;
+}
+
+nav{
+    padding: 0;
+    margin: 0;
+}
+.jumbotron-header {
+    
+    padding: 10px 0px;
+}
+.navLink{
+   font-family: 'Roboto', sans-serif;
+   color: #060506;
+   font-size: 14px;
+   text-decoration: none;
+   text-transform: uppercase;
+    font-weight: bold;
+}
+.navLink:hover{
+   text-decoration: none; 
+   color:  #474a9e;
+}
+.active1{
+   color: #474a9e;  
+}
+.logo{
+     color: #474a9e !important;
+     font-weight: bold;
+     font-family: 'Roboto', sans-serif;
+     font-size: 26px;
+     letter-spacing: 2px;
+}
+.logo1{
+   font-size: 12px; 
+}
+.navLink1{
+   color: #000000 !important;
+    font-family: 'Roboto', sans-serif;
+    padding: 10px 10px !important;
+    font-size: 12px;
+    text-transform: capitalize;
+}
+.navLink1:hover{
+    color: #474a9e !important; 
+}
+
+.jumbotron-footer{
+   background: #060506 !important;
+	border-radius: 0px !important;
+	background-repeat: no-repeat;
+    background-size: cover;
+	text-align:left;
+	padding: 80px 10px 40px 90px !important;
+    margin: 0px;
+}
+.footer-heading{
+	color: #fff;
+	font-size:16px;
+	text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-family: 'Roboto', sans-serif;
+}
+.footer-links{
+	color: #eee;
+	font-size:14px;
+	text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    padding: 8px 0px 8px 0px;
+    line-height: 32px !important;
+}
+.footer-links:hover{
+	color: #fff !important;
+    text-decoration: none;
+}
+.footer-social-icon{
+    color: #fff;
+    font-size: 15px;
+}
+
+ /* Make the image fully responsive */
+  .carousel-inner img {
+    width: 100%;
+    height: 580px;
+  }
+#demo .carousel-indicators{
+    right: 800px;
+    bottom: 150px;
+}
+
+.carousel-indicators li{
+   width: 11px;
+   height: 11px;
+}
+#demo .carousel-caption{
+    left: 10%;
+    text-align: left;
+    padding-bottom:0px;
+}
+#demo .carousel-control-next-icon, .carousel-control-prev-icon{
+    padding: 17px;
+    background-color: #474a9e;
+}
+
+
+.bigHeading{
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+    font-size: 26px;
+    font-weight: bold;
+    letter-spacing: 1px;  
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.smallHeading{
+    font-family: 'Roboto', sans-serif;
+    color: #f2f2f2;
+    font-size: 17px;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    text-align: left;
+}
+.marginLeft{
+    margin-left: 30px;
+}
+.greyBack{
+    background-color: #f2f2f2;
+    padding: 60px 60px;
+}
+.subHeading{
+    font-family: 'Roboto', sans-serif;
+    color: #474a9e;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 1px;  
+    text-transform: capitalize;
+    text-decoration: none;
+}
+.subHeading:hover{
+   text-decoration: none;
+   color: #474a9e; 
+}
+.secondHead{
+    font-family: 'Roboto', sans-serif;
+    color: #333333;
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 1px;  
+    text-decoration: none;  
+}
+.img1{
+    height: 200px !important;
+    width: 100% !important;
+}
+.img1Text{
+    margin-top: 20px;
+}
+.secondHeadSmall{
+    text-transform: uppercase;
+    font-size: 18px;
+}
+.smallHeadingGrey{
+    color: #808080;
+}
+.backImg{
+    background-image:url(../images/banner1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 80px 60px;
+}
+.bigHeadingSmall{
+    font-size: 24px;
+    text-transform: capitalize;
+}
+.mainButton{
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+    font-size: 18px;
+    letter-spacing: 1px;  
+    text-decoration: none;
+    background-color: #474a9e;
+    padding: 13px 20px;
+}
+.mainButton:hover{
+    text-decoration: none; 
+    background-color: transparent;
+    border: 2px solid #474a9e;
+    color: #000000;
+}
+
+
+
+/* Extra small devices (phones, 300px and down)  start*/
+@media only screen and (max-width: 300px) {
+ 
+    
+}
+
+
+/* Extra small devices (phones, 320px and down)  start */
+@media only screen and (max-width: 320px) {
+   .secondHead{
+        font-size: 17px !important;
+    }
+}
+
+
+/* Medium devices ( 767px and down) start */
+@media only screen and (max-width: 767px){ 
+    .carousel-inner img{
+        height: auto;
+    }
+    .bigHeading{
+        font-size: 17px !important; 
+    }
+    .secondHead{
+        font-size: 22px;
+    }
+}
+
+
+
+/* Medium devices (landscape tablets, 768px and up)  start*/
+@media only screen and (min-width: 768px) {
+  .carousel-caption{
+     bottom: 64px;
+    }
+    .bigHeading{
+        font-size: 26px;
+    }
+    .smallHeading{
+       font-size: 14px;  
+    }   
+}
+    
+
+/* Medium devices ( 768px and down) start */
+@media only screen and (max-width: 768px){ 
+    .navLink{
+      padding: 0px 7px;     
+    }  
+    #demo1 .carousel-indicators{
+        right: 0px;
+    }
+   
+}
+
+
+
+/* Large devices (laptops/desktops, 992px and up)  start*/
+@media only screen and (min-width: 992px) {
+   .navLink{
+      padding: 0px 7px;     
+    }
+   .carousel-caption{
+     bottom: 45px;
+    }
+    .bigHeading{
+        font-size: 38px;
+    }
+    .smallHeading{
+       font-size: 13px;  
+    }  
+}
+
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up)  start*/
+@media only screen and (min-width: 1200px) {
+    .navLink{
+       padding: 0px 14px;     
+     }
+    .carousel-caption{
+      bottom: 200px;
+    }
+    .bigHeading{
+        font-size: 39px;
+    }
+    .smallHeading{
+       font-size: 14px !important;  
+    }   
+    #demo .carousel-control-next, .carousel-control-prev{
+     top: 300px;
+    }
+    #demo .carousel-control-prev{
+      left: 993px;
+    }
+    .bigHeadingSmall{
+       font-size: 24px;
+       text-transform: capitalize;
+    }
+  
+}
+
